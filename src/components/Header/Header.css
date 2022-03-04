@@ -1,0 +1,11 @@
+.top-nav {
+    background-color: #c5d0d8 ;
+    height: 7vh;
+   
+}
+.navbar-nav .nav-link  {
+    font-weight: 540;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif; 
+    color:#f76840!important; 
+    
+}

@@ -1,0 +1,48 @@
+
+
+.navbar-logo > a {
+  color: #f76840!important; 
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 550;
+  text-decoration-line: none;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif; 
+  
+}
+
+
+
+.navbar-nav .show >.nav-link {
+  color:#f76840!important; 
+  transition: 2s ease-in;
+
+}
+.dropdown-menu > .dropdown-item > a{
+  color: rgb(14, 3, 1) !important;
+  text-decoration: none;
+
+}
+.dropdown-menu > .dropdown-item > a:hover{
+  color: #f76840!important; 
+  text-decoration: none;
+
+}
+.bookonline-btn {
+  background-color:  #f76840!important; 
+  border-width: 0px!important; 
+  border-radius: 2rem !important;
+  margin-left: 1rem !important;
+  padding: 8px 20px !important;
+}
+.bookonline-btn > a {
+  color: #ffffff!important; 
+  text-decoration: none;
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+}
+.bookonline-btn:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(0.9);
+  transition: 250ms;
+}

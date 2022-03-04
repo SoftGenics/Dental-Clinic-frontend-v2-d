@@ -1,0 +1,93 @@
+
+  /*---------------------------------------
+      APPOINTMENT             
+  -----------------------------------------*/
+
+  .appointment {
+  
+    background-color: #ffffff;
+    line-height: 4rem;
+  }
+  .appointment  label {
+    color: #393939;
+    font-weight: 600;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+  }
+
+  .appointment > .form-control {
+    background: #f9f9f9;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 14px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+    font-weight: normal;
+    margin-bottom: 5px;
+    transition: all ease-in-out 0.4s;
+
+  }
+  .appointment > .form-control:focus {
+    box-shadow: none;
+  }
+  .appointment textarea:focus,
+  .appointment select:focus,
+  .appointment input[type="text"]:focus,
+  .appointment input[type="date"]:focus,
+  .appointment input[type="month"]:focus,
+  .appointment input[type="time"]:focus,
+  .appointment input[type="week"]:focus,
+  .appointment input[type="email"]:focus,
+  .appointment input[type="tel"]:focus,
+  .appointment input[type="radio"]:focus,
+  .appointment  .uneditable-input:focus {   
+  border-color: #f76840!important; 
+  box-shadow: 0 1px 1px rgba(233, 161, 54, 0.87) inset, 0 0 8px #f76840!important; 
+  outline: 0 none;
+}
+  .appointment input,
+  .appointment select {
+    height: 45px;
+  }
+
+  .appointment button#cf-submit {
+    background:  #f76840!important; 
+    color: #ffffff;
+    font-weight: 600;
+    height: 55px;
+    border-radius: 2rem;
+   
+  }
+
+  .appointment button#cf-submit:hover {
+    transform: scale(0.9);
+  }
+
+  .appointment  input::-webkit-file-upload-button {
+    position: absolute;
+    background-color: peru;
+    border: none;
+    height: 2vh;
+    padding-bottom: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+    transition: 100ms ease-out;
+    cursor: pointer;
+    margin-left: 8rem;
+    
+  }
+.appointment input[type="radio"]
+{
+  height: 26px;
+  width: 26px;
+  margin-top: 17px;
+  margin-right: 4px;
+}
+.appointment input[type="radio"]:checked{
+  background-color: #f76840!important; 
+  border: none;
+}
